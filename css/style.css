@@ -16,4 +16,41 @@ header {
 	margin-bottom: 30px;
 }
 
+ul.tab {
+	padding: 0;
+}
+
+ul.tab li {
+	list-style: none;
+	width: 214.6px;
+	height: 40px;
+	border: 1px solid #9FB7D4;
+	float: left;
+}
+
+ul.tab li a {
+	background-color: rgb(0, 65, 144);
+	display: block;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+}
+
+ul.tab li a.selected {
+	background-color: rgb(230, 46, 139);
+	text-decoration: none;
+	cursor: default;
+}
+
+ul.panel {
+	/* タブでfloat指定にしたため、パネル側では解除 */
+	clear: both;
+	border: 1px solid #9FB7D4;
+	padding: 0;
+}
+
+ul.panel li {
+	list-style: none;
+	padding: 10px;
+}
 
